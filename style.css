@@ -1,0 +1,192 @@
+/* Reset default browser styles */
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+/* Style the header */
+header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 20px;
+	background-color: #333;
+	color: #fff;
+}
+
+/* Style the logo */
+.logo img {
+	height: 50px;
+}
+
+/* Style the navigation */
+nav ul {
+	display: flex;
+}
+
+nav li {
+	margin-right: 20px;
+}
+
+nav a {
+	color: #fff;
+	text-decoration: none;
+}
+
+nav a:hover {
+	text-decoration: underline;
+}
+
+/* Style the hero image section */
+.hero-image {
+	background-image: url('Me.png');
+	background-size: cover;
+	background-position: center;
+	height: 500px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	color: rgb(0, 0, 0);
+}
+
+.hero-image h1 {
+	font-size: 48px;
+	margin-bottom: 20px;
+}
+
+.hero-image p {
+	font-size: 24px;
+	margin-bottom: 10px;
+}
+
+.My-Pic {
+	height: 500px;
+	width: auto;
+}
+
+.hero-image button {
+	padding: 10px 20px;
+	background-color: #fff;
+	color: #333;
+	border: none;
+	border-radius: 5px;
+	font-size: 18px;
+	cursor: pointer;
+}
+
+/* Style the skill section */
+.mySkills {
+	padding: 200px;
+	background-color: #f1f1f1;
+}
+
+.mySkills h1 {
+	font-size: 36px;
+	margin-bottom: 30px;
+	text-align: center;
+}
+
+.flexContainer {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.flexChild {
+	flex-basis: 300px;
+	margin: 20px;
+	background-color: #fff;
+	padding: 20px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+	text-align: center;
+}
+
+.flexChild img {
+	height: 80px;
+	margin-bottom: 20px;
+}
+
+.flexChild h3 {
+	font-size: 24px;
+	margin-bottom: 10px;
+}
+
+.flexChild p {
+	font-size: 16px;
+	line-height: 1.5;
+}
+
+/* Style my work section */
+.myWork {
+	padding: 50px;
+	background-color: #f1f1f1;
+}
+
+.myWork h1 {
+	font-size: 36px;
+	margin-bottom: 30px;
+	text-align: center;
+}
+
+.workGrid {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-gap: 30px;
+	margin-top: 50px;
+}
+
+.workGrid div {
+	background-color: #fff;
+	padding: 20px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+	text-align: center;
+}
+
+.workGrid img {
+	max-width: 100%;
+}
+
+.workGrid h4 {
+	font-size: 24px;
+	margin-bottom: 10px;
+}
+
+.workGrid p {
+	font-size: 16px;
+	line-height: 1.5;
+	margin-bottom: 20px;
+}
+
+.workGrid button {
+	background-color: #333;
+	color: #fff;
+	border: none;
+	padding: 10px 20px;
+	font-size: 16px;
+	cursor: pointer;
+}
+
+.workGrid button:hover {
+	background-color: #555;
+}
+
+.myWork h3 {
+	font-size: 24px;
+	margin-top: 50px;
+	text-align: center;
+}
+
+/* Style the footer */
+footer {
+	background-color: #333;
+	color: #fff;
+	padding: 100px;
+	text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+	/* CSS styles for mobile devices go here */
+  }
